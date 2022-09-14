@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="img/flaticon.png">
+
+    <!-- Normalize: Cross-browser purpose -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!------------Font Awesome ----------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" 
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!------------Google Fonts ----------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&family=Staatliches&display=swap" rel="stylesheet">
+
+    <!------------Bootstrap CSS ----------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Sattvic Aquaponics</title>
+    <link rel="stylesheet" href="css/gallery.css">
+  </head>
+  <body>
+
+    <!-- ---------- PRE LOADER SECTION---------- -->
+
+    <div class="preloader-wrapper">
+      <div class="spinner-border text-success" style="width: 3rem; height: 3rem;">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+
+    <!-- ---------- NAVBAR SECTION---------- -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand mx-2" href="index.html">
+            <img src="img/logo.svg" width="120" alt="brand logo">
+          </a>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarBasic">
+            <ul class="navbar-nav ms-auto px-2">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="project.html">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- ----------Gallery hero SECTION---------- -->
+
+      <section class="gallery-hero d-flex align-items-center justify-content-center">
+        <div class="px-3">
+            <h1 class="gallery-header">
+              Gallery
+            </h1>
+          </div>
+      </section>
+
+      <!-- ----------Gallery Images SECTION---------- -->
+
+      <section class="gallery-images">
+        <div class="px-3 text-center">
+            <p class="gallery-caption mb-5">
+              Below are some of the moments we've captured while constructing our aquaponic system.
+            </p>
+        </div>
+
+        <div class="container">
+          <div class="row">
+
+            <div class="col-4 col-md-4 col-lg-2 item img-hover">
+              <a href="#" data-lightbox="photos" data-bs-toggle="modal" data-bs-target="#img-popup1">
+                <img class="img-fluid" src="img/thumbnails/img1-min.jpg" width="150">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4 col-lg-2 item img-hover">
+              <a href="#" data-lightbox="photos" data-bs-toggle="modal" data-bs-target="#img-popup2">
+                <img class="img-fluid" src="img/thumbnails/img2-min.jpg" width="150">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4 col-lg-2 item img-hover">
+              <a href="#" data-lightbox="photos" data-bs-toggle="modal" data-bs-target="#img-popup3">
+                <img class="img-fluid" src="img/thumbnails/img3-min.jpg" width="150">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4 col-lg-2 item img-hover">
+              <a href="#" data-lightbox="photos" data-bs-toggle="modal" data-bs-target="#img-popup4">
+                <img class="img-fluid" src="img/thumbnails/img4-min.jpg" width="150">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4 col-lg-2 item img-hover">
+              <a href="#" data-lightbox="photos" data-bs-toggle="modal" data-bs-target="#img-popup5">
+                <img class="img-fluid" src="img/thumbnails/img5-min.jpg" width="150">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4 col-lg-2 item img-hover">
+              <a href="#" data-lightbox="photos" data-bs-toggle="modal" data-bs-target="#img-popup6">
+                <img class="img-fluid" src="img/thumbnails/img6-min.jpg" width="150">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4 col-lg-2 item img-hover">
+              <a href="#" data-lightbox="photos" data-bs-toggle="modal" data-bs-target="#img-popup7">
+                <img class="img-fluid" src="img/thumbnails/img7-min.jpg" width="150">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4 col-lg-2 item img-hover">
+              <a href="#" data-lightbox="photos" data-bs-toggle="modal" data-bs-target="#img-popup8">
+                <img class="img-fluid" src="img/thumbnails/img8-min.jpg" width="150">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4 col-lg-2 item img-hover">
+              <a href="#" data-lightbox="photos" data-bs-toggle="modal" data-bs-target="#img-popup9">
+                <img class="img-fluid" src="img/thumbnails/img9-min.jpg" width="150">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4 col-lg-2 item img-hover">
+              <a href="#" data-lightbox="photos" data-bs-toggle="modal" data-bs-target="#img-popup10">
+                <img class="img-fluid" src="img/thumbnails/img10-min.jpg" width="150">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4 col-lg-2 item img-hover">
+              <a href="#" data-lightbox="photos" data-bs-toggle="modal" data-bs-target="#img-popup11">
+                <img class="img-fluid" src="img/thumbnails/img11-min.jpg" width="150">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4 col-lg-2 item img-hover">
+              <a href="#" data-lightbox="photos" data-bs-toggle="modal" data-bs-target="#img-popup12">
+                <img class="img-fluid" src="img/thumbnails/img12-min.jpeg" width="150">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4 col-lg-2 item img-hover">
+              <a href="#" data-lightbox="photos" data-bs-toggle="modal" data-bs-target="#img-popup13">
+                <img class="img-fluid" src="img/thumbnails/img13-min.jpeg" width="150">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4 col-lg-2 item img-hover">
+              <a href="#" data-lightbox="photos" data-bs-toggle="modal" data-bs-target="#img-popup14">
+                <img class="img-fluid" src="img/thumbnails/img14-min.jpeg" width="150">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4 col-lg-2 item img-hover">
+              <a href="#" data-lightbox="photos" data-bs-toggle="modal" data-bs-target="#img-popup15">
+                <img class="img-fluid" src="img/thumbnails/img15-min.jpeg" width="150">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4 col-lg-2 item img-hover">
+              <a href="#" data-lightbox="photos" data-bs-toggle="modal" data-bs-target="#img-popup16">
+                <img class="img-fluid" src="img/thumbnails/img16-min.jpeg" width="150">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4 col-lg-2 item img-hover">
+              <a href="#" data-lightbox="photos" data-bs-toggle="modal" data-bs-target="#img-popup17">
+                <img class="img-fluid" src="img/thumbnails/img17-min.jpeg" width="150">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4 col-lg-2 item img-hover">
+              <a href="#" data-lightbox="photos" data-bs-toggle="modal" data-bs-target="#img-popup18">
+                <img class="img-fluid" src="img/thumbnails/img18-min.jpeg" width="150">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4 col-lg-2 item img-hover">
+              <a href="#" data-lightbox="photos" data-bs-toggle="modal" data-bs-target="#img-popup19">
+                <img class="img-fluid" src="img/thumbnails/img19-min.jpeg" width="150">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4 col-lg-2 item img-hover">
+              <a href="#" data-lightbox="photos" data-bs-toggle="modal" data-bs-target="#img-popup20">
+                <img class="img-fluid" src="img/thumbnails/img20-min.jpeg" width="150">
+              </a>
+            </div>
+
+            <div class="col-4 col-md-4 col-lg-2 item img-hover">
+              <a href="#" data-lightbox="photos" data-bs-toggle="modal" data-bs-target="#img-popup21">
+                <img class="img-fluid" src="img/thumbnails/img21-min.jpeg" width="150">
+              </a>
+            </div>
+
+            <!-- ----------Gallery Images Modal ---------- -->
+
+            <div class="modal" id="img-popup1" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="img/wide-img/img-1.jpg" alt="image-1" class="wide-imgs">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-dark btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal" id="img-popup2" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="img/wide-img/img-2.jpg" alt="image-2" class="wide-imgs">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-dark btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal" id="img-popup3" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="img/wide-img/img-3.jpg" alt="image-3" class="wide-imgs">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-dark btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal" id="img-popup3" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="img/wide-img/img-3.jpg" alt="image-3" class="wide-imgs">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-dark btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal" id="img-popup4" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="img/wide-img/img-4.jpg" alt="image-4" class="wide-imgs">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-dark btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal" id="img-popup5" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="img/wide-img/img-5.jpg" alt="image-5" class="wide-imgs">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-dark btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal" id="img-popup6" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="img/wide-img/img-6.jpg" alt="image-6" class="wide-imgs">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-dark btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal" id="img-popup7" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="img/wide-img/img-7.jpg" alt="image-7" class="wide-imgs">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-dark btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal" id="img-popup8" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="img/wide-img/img-8.jpg" alt="image-8" class="wide-imgs">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-dark btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal" id="img-popup9" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="img/wide-img/img-9.jpg" alt="image-9" class="wide-imgs">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-dark btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal" id="img-popup10" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="img/wide-img/img-10.jpg" alt="image-10" class="wide-imgs">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-dark btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal" id="img-popup11" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="img/wide-img/img-11.jpg" alt="image-11" class="wide-imgs">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-dark btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal" id="img-popup12" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="img/wide-img/img-12.jpeg" alt="image-12" class="wide-imgs">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-dark btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal" id="img-popup13" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="img/wide-img/img-13.jpeg" alt="image-13" class="wide-imgs">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-dark btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal" id="img-popup14" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="img/wide-img/img-14.jpeg" alt="image-14" class="wide-imgs">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-dark btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal" id="img-popup15" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="img/wide-img/img-15.jpeg" alt="image-15" class="wide-imgs">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-dark btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal" id="img-popup16" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="img/wide-img/img-16.jpeg" alt="image-16" class="wide-imgs">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-dark btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal" id="img-popup17" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="img/wide-img/img-17.jpeg" alt="image-17" class="wide-imgs">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-dark btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal" id="img-popup18" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="img/wide-img/img-18.jpeg" alt="image-18" class="wide-imgs">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-dark btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal" id="img-popup19" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="img/wide-img/img-19.jpeg" alt="image-19" class="wide-imgs">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-dark btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal" id="img-popup20" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="img/wide-img/img-20.jpeg" alt="image-20" class="wide-imgs">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-dark btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal" id="img-popup21" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="img/wide-img/img-21.jpeg" alt="image-21" class="wide-imgs">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-dark btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        
+      </section>
+
+      <div class = "m-5 p-2 d-flex justify-content-end">
+        <a href="index.html" class="back-btn btn">BACK</a>
+      </div>
+
+      <!-- ---------- FOOTER SECTION---------- -->
+
+      <section class="footer-section text-center">
+        <p>Copyright &copy; 2022 Sattvic Aquaponics</p>
+      </section>
+
+
+
+
+    <!------------Bootstrap JS ----------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

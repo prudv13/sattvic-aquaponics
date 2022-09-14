@@ -1,0 +1,644 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="img/flaticon.png">
+
+    <!-- Normalize: Cross-browser purpose -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!------------Font Awesome ----------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" 
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!------------Google Fonts ----------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&family=Staatliches&display=swap" rel="stylesheet">
+
+    <!------------Bootstrap CSS ----------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Sattvic Aquaponics</title>
+    <link rel="stylesheet" href="css/project.css">
+  </head>
+  <body>
+
+    <!-- ---------- PRE LOADER SECTION---------- -->
+
+    <div class="preloader-wrapper">
+      <div class="spinner-border text-success" style="width: 3rem; height: 3rem;">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+
+    <!-- ---------- NAVBAR SECTION---------- -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand mx-2" href="index.html">
+            <img src="img/logo.svg" width="120" alt="brand logo">
+          </a>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarBasic">
+            <ul class="navbar-nav ms-auto px-2">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- ----------Project hero SECTION---------- -->
+
+      <section class="project-hero d-flex align-items-center justify-content-center mb-3">
+        <div class="px-3">
+            <h1 class="project-header">
+              OUR PROJECT
+            </h1>
+          </div>
+      </section>
+
+      <!-- ---------- Project Content SECTION---------- -->
+
+      <div class="row project-content" id="projectContent">
+        <div class="col-11 col-md-3 m-2">
+          <div class="list-group mx-3" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active" id="list-introduction" data-bs-toggle="list" href="#introduction" role="tab" aria-controls="Introduction">Introduction</a>
+            <a class="list-group-item list-group-item-action" id="list-workingofsystem" data-bs-toggle="list" href="#workingofsystem" role="tab" aria-controls="Working of the system">Working of the system</a>
+            <a class="list-group-item list-group-item-action" id="list-prototype" data-bs-toggle="list" href="#prototype" role="tab" aria-controls="Prototype">Prototype</a>
+            <a class="list-group-item list-group-item-action" id="list-polyhouse" data-bs-toggle="list" href="#polyhouse" role="tab" aria-controls="Polyhouse">Polyhouse</a>
+            <a class="list-group-item list-group-item-action" id="list-fishproduction" data-bs-toggle="list" href="#fishproduction" role="tab" aria-controls="Fish Production">Fish Production</a>
+            <a class="list-group-item list-group-item-action" id="list-bacteria" data-bs-toggle="list" href="#bacteria" role="tab" aria-controls="Bacteria">Bacteria</a>
+            <a class="list-group-item list-group-item-action" id="list-plantproduction" data-bs-toggle="list" href="#plantproduction" role="tab" aria-controls="Plant Production">Plant Production</a>
+            <a class="list-group-item list-group-item-action" id="list-pestmanagement" data-bs-toggle="list" href="#pestmanagement" role="tab" aria-controls="Pest Management">Pest Management</a>
+            <a class="list-group-item list-group-item-action" id="list-projectreport" data-bs-toggle="list" href="#projectreport" role="tab" aria-controls="Project Report">Project Report</a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-8">
+          <div class="tab-content" id="list-nav-tabContent">
+
+            <div class="tab-pane fade show active" id="introduction" role="tabpanel" aria-labelledby="list-introduction">
+              <div class="card border-0">
+                <div class="card-header">
+                  INTRODUCTION
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Aquaponics is a method of food production that combines aquaculture; 
+                    the cultivation of aquatic animals such as fish, shrimp, crayfish, or prawns, in tanks and hydroponics; 
+                    the growing of plants in water.
+                    <br/><br/>
+                    The fish and plants are cultivated together in a recirculating ecosystem that utilizes 
+                    natural nitrogen-fixing bacteria to convert fish/aquatic animal wastes into plant nutrients. 
+                    The waste products of the aquaculture system serve as nutrients for the hydroponic system. 
+                    With such a combined recirculating system, there is no need to discard any water or filtrate 
+                    or add any chemical fertilizers, making it both sustainable and environmentally friendly.
+                    <br/><br/>
+                    While most people know that Aquaponics is the combination of Aquaculture and Hydroponics, 
+                    rather fewer know much of how it came about. The notion of using fish wastes to fertilize plants 
+                    (the fundamental premise of aquaponics) has its roots in early Asian and South American civilizations.
+                    <br><hr><br>
+                  </p>
+                  <div class = "mb-5 d-flex justify-content-start">
+                    <a href="#projectContent" class="btn btn-outline-dark">
+                      back to top
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="tab-pane fade" id="workingofsystem" role="tabpanel" aria-labelledby="list-workingofsystem">
+              <div class="card border-0">
+                <div class="card-header">
+                  WORKING OF THE SYSTEM
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    Ecomimicry is the design and production of structures and systems that are modelled on biological 
+                    entities and processes. Aquaponic systems are manufactured environments that attempt to replicate a 
+                    complex natural system. Every component and process in an aquaponic system has a natural counterpart.
+                    <br/><br/>
+                    Aquaponics is a system of permaculture. One of the core tenets of permaculture is the “return of surplus” 
+                    which is maximizing the efficient use of resources and eliminating waste. Often, waste can be eliminated 
+                    simply by recognizing it as a resource and using rather than discarding it.
+                    <br/><br/>
+                    At Sattvic Aquaponics, we extract five different uses from every kilogram of fish feed and three uses from 
+                    every litre of water. The fish feed is used to raise fish, which in turn feed plants via the bacteria. 
+                    The resulting fish waste is captured and converted to a fertilizer product.
+                    <br/><br/>
+                    <strong>Basic Requirements:</strong> Electric power, Water, Breathable Atmosphere, 
+                    Reasonably closed environment to control the light, airflow, temperature and humidity. 
+                    Apparatus to built a aquaponics system.
+                    <br/><br/>
+                    <strong>Components of Aquaponics System:</strong> Fish tank, Solid grow bed of gravel, 
+                    More than one feet deep pond for water culture,
+                    Submersible pump to release water into grow beds,
+                    Aerator to maintain oxygen levels in tank,
+                    Testing kit to check pH levels.
+                    <br/><hr><br/>
+                    <strong>Aquaponic System Cycle</strong>
+                    <br/><br/>
+                    Fish are fed food and produce ammonia rich waste. Too much waste substance is toxic for the fish, 
+                    but they can withstand high levels of nitrates.
+                    <br/><br/>
+                    Dissolved Oxygen enters the system through an air pump. 
+                    This Oxygen is essential for plant growth and fish survival.
+                    <br/><br/>
+                    The bacteria, which are cultured in the grow beds as well as in a fish tank breaks down 
+                    the ammonia into nitrites and then nitrates.
+                    <br/><br/>
+                    Plants take in the converted nitrates as nutrients. The nutrients are fertilizers, feeding the plants. 
+                    Also, the plant roots help filter the water for the fish.
+                    <br/><br/>
+                    Water from the fish tank is pumped to the plants. Again water in the system is filtered through 
+                    the grow medium in the grow beds to the fish tanks. The water also contains all the nutrients for the fish.
+                    <br/><hr><br/>
+                    <strong>Nitrogen Cycle</strong>
+                    <br/><br/>
+                    Fish excrete waste nitrogen as ammonia into the water.
+                    <br/><br/>
+                    Nitrifying bacteria then convert the ammonia compound to nitrite and then nitrate. 
+                    Both ammonia and nitrite are toxic to fish, while nitrate is relatively harmless and is 
+                    also the preferred compound of nitrogen for plant uptake.
+                    <br/><br/>
+                    Nitrogen is not the only element that can be recycled in this manner, Plants are able 
+                    to recover other nutrients from the waste water as well. This relieves the environmental 
+                    load and increases the water exchange rate, in turn lowering operational costs.
+                    <br><hr><br>
+                  </p>
+                  <div class = "mb-5 d-flex justify-content-start">
+                    <a href="#projectContent" class="btn btn-outline-dark">
+                      back to top
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="tab-pane fade" id="prototype" role="tabpanel" aria-labelledby="list-prototype">
+              <div class="card border-0">
+                <div class="card-header">
+                  PROTOTYPE
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    <div class="table-responsive">
+                      <table class="table table-hover">
+                        <thead class="bg-secondary text-white">
+                          <tr>
+                            <th scope="col">COMPONENTS</th>
+                            <th scope="col">PRICE</th>
+                            <th scope="col">QUANTITY</th>
+                            <th scope="col">TOTAL</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Fish tank</th>
+                            <td>800/-</td>
+                            <td>1</td>
+                            <td>800/-</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Sump tank</th>
+                            <td>300/-</td>
+                            <td>1</td>
+                            <td>300/-</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Air pump</th>
+                            <td>250/-</td>
+                            <td>1</td>
+                            <td>250/-</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Motor</th>
+                            <td>1000/-</td>
+                            <td>1</td>
+                            <td>1000/-</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Grow bed</th>
+                            <td>350/-</td>
+                            <td>1</td>
+                            <td>350/-</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Raft Container</th>
+                            <td>350/-</td>
+                            <td>1</td>
+                            <td>350/-</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Pipes</th>
+                            <td>170/-</td>
+                            <td>2</td>
+                            <td>340/-</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Connectors Pack</th>
+                            <td>500/-</td>
+                            <td>1</td>
+                            <td>500/-</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Grow Media</th>
+                            <td>1000/-</td>
+                            <td>1</td>
+                            <td>1000/-</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Thermometer</th>
+                            <td>2000/-</td>
+                            <td>1</td>
+                            <td>2000/-</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Testing Kit</th>
+                            <td>3000/-</td>
+                            <td>1</td>
+                            <td>3000/-</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">pH-meter</th>
+                            <td>700/-</td>
+                            <td>2</td>
+                            <td>1400/-</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Fish Feed</th>
+                            <td>500/-</td>
+                            <td>2</td>
+                            <td>1000/-</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Fish Feed</th>
+                            <td>500/-</td>
+                            <td>2</td>
+                            <td>1000/-</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Fish stock</th>
+                            <td>250/-</td>
+                            <td>10</td>
+                            <td>2500/-</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Raft Sheet</th>
+                            <td>1000/-</td>
+                            <td>1</td>
+                            <td>1000/-</td>
+                          </tr>
+                          <tr class="bg-secondary text-white">
+                            <th scope="row"></th>
+                            <td></td>
+                            <td><strong>TOTAL</strong></td>
+                            <td><strong>15,790/-</strong></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <br><hr><br>
+                  </p>
+                  <div class = "mb-5 d-flex justify-content-start">
+                    <a href="#projectContent" class="btn btn-outline-dark">
+                      back to top
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="tab-pane fade" id="polyhouse" role="tabpanel" aria-labelledby="list-polyhouse">
+              <div class="card border-0">
+                <div class="card-header">
+                  POLYHOUSE
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    <strong>Site Selection</strong>
+                    <br/><br/>
+                    The first order of business is to excavate the site. Have an excavator level the ground 
+                    by removing all turf, topsoil and compostable matter, and scrape down to undisturbed, compacted earth. 
+                    The area required is a minimum of 10′ larger than your polyhouse on all four sides.
+                    <br/><br/>
+                    All large rocks, stumps or debris must be fully removed if exposed above this level. 
+                    The minimum site requirements for an aquaponics system include access to water, electricity, 
+                    and heat (e.g. natural gas, oil, or propane), and enough space to establish all the structures. 
+                    The water source does not have to be high volume. Potential incoming water sources include springs, 
+                    wells, and public water supplies. In some cases, public water supplies will have to be dechlorinated before use. 
+                    A water supply should be tested for the following and other parameters before a 
+                    site is finally selected: pH, oxygen, alkalinity, hardness, suspended/dissolved organics, 
+                    inorganics (particularly iron and manganese), and pesticides. If a site has a risk of potential ground/surface 
+                    water contamination, then it should not be selected.
+                    <br/><hr><br/>
+                    <strong>Necessary Materials</strong>
+                    <br/><br/>
+                    - Land to establish the aquaponics unit. <br>
+                    - Water to produce fish and grow vegetables. <br>
+                    - Fish, mostly grow outs of Tilapia or Catfish / Koi or Golden fish. <br>
+                    - Vegetables, mostly seedlings of different vegetables. <br>
+                    - Poly-sheet. <br>
+                    - Shade-net for polyhouse. <br>
+                    - Electrical Equipment <br>
+                    - Testing Kit <br>
+                    <br/><hr><br/>
+                    <strong>Structures</strong>
+                    <br><br>
+                    - Green house <br>
+                    - Grow beds <br>
+                    - Sump Tank <br>
+                    - Rearing tanks <br>
+                    - Filter tanks <br>
+                    - NFT pipe containers <br>
+                    <br><hr><br>
+                    <strong>Polyhouse Design</strong>
+                    <br><br>
+                    The aquaponics system should be housed inside with enough area having gutter-connected 
+                    greenhouse with a gravel floor and metal frames. The roof will be constructed using double 
+                    layered plastic with different thicknesses of south and north. The wall of the greenhouse 
+                    should be built with hollow blocks and glass above to it. 
+                    <br><br>
+                    If you are buying a new greenhouse, it will come with detailed installation instructions 
+                    as well as all required hardware. Follow the instructions to the letter. If you are buying 
+                    a used greenhouse, one of the biggest downsides is it is likely that it will not come with 
+                    installation instructions. Accordingly, you must either be meticulous in documenting how 
+                    the greenhouse is taken down so you can reverse steps to reinstall it, or you should hire 
+                    professional installers.
+                    <br><hr><br>
+                  </p>
+                  <div class = "mb-5 d-flex justify-content-start">
+                    <a href="#projectContent" class="btn btn-outline-dark">
+                      back to top
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="tab-pane fade" id="fishproduction" role="tabpanel" aria-labelledby="list-fishproduction">
+              <div class="card border-0">
+                <div class="card-header">
+                  FISH PRODUCTION
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    There are several species of both warm water and cold water fish that are well adapted to 
+                    growing in recirculating aquaponic systems. These include tilapia, catfish, rainbow trout, 
+                    perch, carp, Arctic char, goldfish, and largemouth and striped bass. Non-native aquaculture 
+                    fish species can be imported and used for the system. Before importing or beginning to culture 
+                    any non-native species, an application for importation of exotic species should be made ahead 
+                    and accepted by the respective organization.
+                    <br/><br/>
+                    Koi, an ornamental type of carp, thrive in aquaponics systems. Even though they aren’t 
+                    technically edible, they live an incredibly long time and are some of the hardiest fish 
+                    you will find. 
+                    The major benefit of using koi in an aquaponics system is that they are highly tolerant 
+                    of a wide range of temperatures. 
+                    Most do best in water that ranges from 35 to 50 degrees Fahrenheit, although they can 
+                    survive outside of this range, too. This means you won’t need to heat the water to keep 
+                    your fish healthy.
+                    <br/><br/>
+                    As with any aquaponics fish species, there are disadvantages to selecting koi. One of the 
+                    biggest issues is that koi are not typically used as food sources. For most people, the major 
+                    draw of an aquaponics system is that it can provide two sources of food: fish and plants 
+                    (usually vegetables). However, koi don’t really check off that first box. You may be able 
+                    to raise them in your pond for the purpose of selling them to collectors later, but you’ll 
+                    reduce the overall potential for harvest from your system.
+                    <br><br>
+                    The ease of accessing a fish supply will depend greatly upon your location. Seek a hatchery 
+                    that is Certified Disease Free by your local fisheries authority and that can provide a Certificate 
+                    of Fish Health for fingerlings you purchase. Note that even Certified disease-free hatcheries will 
+                    occasionally encounter disease problems, but a good hatchery will remedy these quickly as they arise 
+                    and problems, should not be ongoing. The size of the fish you put into your system will largely be 
+                    determined by the availability and cost of fingerlings in your area. The amount of time they spend 
+                    in the system is determined by their growth rate and target harvest weight.
+                    <br><hr><br>
+                    <strong>Fish Feed and Nutrition</strong>
+                    <br><br>
+                    Koi are large fish, and they are also long-lived fish. They can live up to thirty years in captivity 
+                    and grow more than three feet in length.
+                    As your fish grow larger, they are going to need more space to thrive. With that said, it is not recommended 
+                    that you start your system off with fully grown, mature fish. Instead, start with small fish. This will let 
+                    your fish get acclimated to the system and also keep your aquaponics system healthy and functional.
+                    <br><br>
+                    Feeding rate for aquaponics is the amount of feed fed to fish daily per square meter of plant surface area. 
+                    Size of plant beds and number of plants are directly related to the amount of feed input into the system. 
+                    For floating rafts, fish feed in between 60-100 g/day/m2 of plant growing area for the staggered production 
+                    of leaf lettuce should be added to the unit. Meaning, every 60 to 100 g of feed supports 1m2 of floating bed 
+                    surface area. Fish feed consists of all the nutrients that are required for growth, energy and reproduction. 
+                    Dietary requirements are identified for proteins, amino acids, carbohydrates, lipids, energy, minerals and 
+                    vitamins.
+                    <br><hr><br>
+                  </p>
+                  <div class = "mb-5 d-flex justify-content-start">
+                    <a href="#projectContent" class="btn btn-outline-dark">
+                      back to top
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="bacteria" role="tabpanel" aria-labelledby="list-bacteria">
+              <div class="card border-0">
+                <div class="card-header">
+                  BACTERIA
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    Many people look at aquaponic systems and all they see is fish and plants. Much is written about 
+                    this and many people define aquaponics as the “combination of fish and plants”. The fact is that 
+                    there is a third, and equally important, group whose management is often completely  ignored: bacteria.
+                    <br/><br/>
+                    Bacteria are probably the hardest little workers never be seen or meet or touched by hand. They are the 
+                    little microscopic creatures that do all the work in an Aquaponics system converting fish waste into food 
+                    so that the plants can absorb. Hundreds and billions of them chugging along, multiplying, eating and dancing 
+                    away, unseen in aquaponics water, in the grow-bed, adhering to the underside of old pump, the slime coating 
+                    of your fish and onto the fingers hands when the gravel media that make up the aquaponic system is touched.
+                    <br/><br/>
+                    While there are literally hundreds of types of bacteria that will home into aquaponics systems, Aquaponicists 
+                    will often talk about very important ones as they do the job of converting the toxic  ammonia from the fish 
+                    into benign nitrate: Nitrosomonas and Nitrobacter. They are of a family of autotrophic bacteria called 
+                    “nitrifying bacteria”. When an Aquaponics system is constructed and ready to be used for the first time there 
+                    will be virtually no beneficial bacteria present, colonies of Nitrosomanas and Nitrobacter must be established 
+                    before the system will work correctly. They always oxidise Ammonia to Nitrite and Nitrite to Nitrate.
+                    <br><hr><br>
+                  </p>
+                  <div class = "mb-5 d-flex justify-content-start">
+                    <a href="#projectContent" class="btn btn-outline-dark">
+                      back to top
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="tab-pane fade" id="plantproduction" role="tabpanel" aria-labelledby="list-plantproduction">
+              <div class="card border-0">
+                <div class="card-header">
+                  PLANT PRODUCTION
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    The fish supply needed nutrients to the plants and help to keep the water clean to create a 
+                    healthy growing environment. Through the use of grow beds, which can be filled with clay pebbles or 
+                    gravel the water continuously flows through and provides a nutrient rich environment for plants.
+                    Many plants can be grown in aquaponic systems, and the choice of plants will depend on the stocking 
+                    density of the fish being grown because this will influence the concentration of nutrients in the fish 
+                    effluent. 
+                    <br/><br/>
+                    Over 300 varieties of aquaponics plants have been tested to see which ones would thrive best in the system. 
+                    The huge list of successful plants are basically anything that grows well above soil and love to have their 
+                    roots wet. Plants that have low to medium nutrient requirements that are well adapted to aquaponic systems 
+                    include lettuce, basil, spinach, chives, herbs, watercress and other leafy green vegetables.
+                    <br/><hr><br/>
+                    <strong>Growth Cycle</strong>
+                    <br><br>
+                    The growth cycle of a plant will vary depending on the time of the year, primarily due to fluctuations 
+                    in photoperiod and air temperature. The two types of production are multistage (transplanted) and direct seeding. <br><br>
+                    A typical multistage growth cycle is: <br>
+                    - 1 week sprouting in the Germination Chamber. <br>
+                    - 3–4 weeks growing first leaves on the Seedling Table. <br>
+                    - 3–6 weeks growing to maturity in the troughs. <br>
+                    - Note that larger plants are thinned or spaced half way through the trough stage. <br><br>
+                    Direct seeding is sowing seeds directly into net pots and inserting 
+                    into troughs where they will germinate and grow until harvest. Watercress 
+                    and baby kale are grown in this manner because they can reach a harvestable size in 4–6 weeks. 
+                    The goal is a dense canopy that can be harvested en-mass. Spacing/ thinning is not required.
+                    <br><hr><br>
+                  </p>
+                  <div class = "mb-5 d-flex justify-content-start">
+                    <a href="#projectContent" class="btn btn-outline-dark">
+                      back to top
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="tab-pane fade" id="pestmanagement" role="tabpanel" aria-labelledby="list-pestmanagement">
+              <div class="card border-0">
+                <div class="card-header">
+                  PEST MANAGEMENT
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    We highly recommend learning and implementing Integrated Pest Management (IPM) protocols. 
+                    The United Nations Food and Agriculture Organization defines IPM as “the careful consideration 
+                    of all available pest control techniques and subsequent integration of appropriate measures 
+                    that discourage the development of pest populations and keep pesticides and other interventions 
+                    to levels that are economically justified and reduce or minimize risks to human health and the 
+                    environment. IPM emphasizes the growth of a healthy crop with the least possible disruption to 
+                    agro-ecosystems and encourages natural pest control mechanisms.” The first and best lines of 
+                    defence against pests and disease are cultural and environmental controls. We cannot overstate 
+                    their importance in preventing and minimizing disease and pests.
+                    <br/><hr><br/>
+                    <strong>Cultural Control</strong>
+                    <br><br>
+                    The most basic and important cultural control is the daily and weekly plant inspection. 
+                    Diseased or pest-infested plants should removed from the facility immediately. Sterilize 
+                    your hands after removing plants to prevent the spread of disease. Plant quality and maintenance 
+                    is also a cultural control. If a particular plant type does not do well in your system, do not 
+                    grow it. In an aquaponic farm, the plant must match the system, not vice versa. Every week you 
+                    will germinate more seeds than you will require, for one primary reason: so that you always have 
+                    healthy, strong, vigorous seedlings to transplant into the troughs. Do not transplant weak 
+                    seedlings. Thinning and/ or spacing plants so they are not crowded, stressed and stretching for 
+                    light helps to keep plants strong.
+                    <br/><br/>
+                    While most people know that Aquaponics is the combination of Aquaculture and Hydroponics, 
+                    rather fewer know much of how it came about. The notion of using fish wastes to fertilize plants 
+                    (the fundamental premise of aquaponics) has its roots in early Asian and South American civilizations.
+                    <br><hr><br>
+                    <strong>Environmental Control</strong>
+                    <br><br>
+                    Environmental controls are the conditions of your greenhouse: air and water temperature, 
+                    humidity, light level and air movement. In order to have strong plants, you must have a 
+                    good environment.
+                    <br><br>
+                    In cold seasons, use circulation fans to equalize temperature and humidity throughout the greenhouse. 
+                    In warm seasons, these fans should be turned off to allow the air to stratify. With the fans off, warm 
+                    air will rise to the roof where it can be vented out, drawing cooler air in through the doors and roll-up sides. 
+                    For optimum plant growth, humidity should be 50–80% year-round. Hygrometers are inexpensive and commonly available. 
+                    Place them near the plant canopy in various locations as well as outside.
+                    <br><hr><br>
+                    <strong>Sticky Traps</strong>
+                    <br><br>
+                    Sticky traps are cheap, bright yellow paper cards covered in a sticky resin that are very useful in helping 
+                    to identify early stages of pest infestation. We recommend hanging them just above the canopy at random 
+                    locations to identify when and where a pest population is growing, by observing the concentration of trapped 
+                    insects on each card.
+                    <br><hr><br>
+                    <strong>Beneficial Insects</strong>
+                    <br><br>
+                    This form of “bio-control” consists of adding and raising populations of beneficial insects 
+                    (lady bugs, aphidius wasps, etc) to feed on bugs that eat the plants. A packet of beneficial Nematodes, 
+                    tiny microscopic organisms which are effective in killing bugs but completely safe for people, pets, and 
+                    the environment can be used. Lady bugs can devour up to 50 aphids, mealy bugs, scale, leaf hoppers, or other 
+                    destructive pests per day.
+                    <br><hr><br>
+                  </p>
+                  <div class = "mb-5 d-flex justify-content-start">
+                    <a href="#projectContent" class="btn btn-outline-dark">
+                      back to top
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="tab-pane fade" id="projectreport" role="tabpanel" aria-labelledby="list-projectreport">
+              <div class="card border-0">
+                <div class="card-header">
+                  PROJECT REPORT
+                </div>
+                <div class="card-body">
+                  <a href="https://drive.google.com/file/d/1J4Ot3n7c-bREYIbU5dyvcrthhDvTLiT4/view" target="_blank" class="report-btn btn d-flex justify-content-center">
+                    <img src="img/report-frontpage.jpg" alt="report frontpage" width="200"/>
+                  </a>
+                  <div class = "mb-5 d-flex justify-content-center mt-4">
+                    <a href="#projectContent" class="btn btn-outline-dark">
+                      back to top
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class = "mb-5 px-5 d-flex justify-content-end">
+        <a href="index.html" class="back-btn btn">BACK</a>
+      </div>
+
+      <!-- ---------- FOOTER SECTION---------- -->
+
+      <section class="footer-section text-center">
+        <p>Copyright &copy; 2022 Sattvic Aquaponics</p>
+      </section>
+
+    <!------------Bootstrap JS ----------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

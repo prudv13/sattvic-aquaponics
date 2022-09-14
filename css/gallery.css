@@ -1,0 +1,122 @@
+*{
+    font-family: "Nunito", sans-serif;
+}
+
+/* PRE-LOADER SECTION */
+
+.preloader-wrapper{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+}
+
+.fade-out-animation{
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* NAVBAR SECTION */
+
+.nav-link{
+    color: #333;
+    font-size: 1rem;
+    margin-left: 2rem;
+}
+
+
+.nav-link:hover, .nav-link:active{
+    color: #2b8a3e;
+    transform: scale(1.1);
+}
+
+/* GALLERY HERO SECTION */
+
+.gallery-hero{
+    height: 50vh;
+    max-width: 100%;
+    background-image: linear-gradient(rgba(20, 37, 23, 0.509), rgba(20, 37, 23, 0.509)), url("/img/gallery-hero-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gallery-header{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    background-color: #69db7c57;
+}
+
+.gallery-caption{
+    color: #222;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 3rem 0 2rem 0;
+    border-bottom: 1.5px solid #69db7c;
+}
+
+/* GALLERY IMAGES SECTION */
+
+.photos{
+    padding-bottom:20px;
+}
+.item{
+    padding-bottom:30px;
+}
+
+.img-hover{
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+
+.img-hover:hover, .img-hover:active{
+    transform: translateY(-1rem);
+}
+
+.wide-imgs{
+    width: 100%;
+}
+
+/* BACK BUTTON */
+.back-btn{
+    color: #fff;
+    background-color: #2b8a3e;
+    font-size: 1rem;
+    border: 0;
+    width: 5rem;
+}
+
+.back-btn:link, .back-btn:visited{
+    color: #fff;
+    background-color: #2b8a3e;
+    text-decoration: none;
+    transition: all 0.4s ease-in;
+}
+
+.back-btn:hover, .back-btn:active{
+    color: #333;
+    background-color: #69db7c;
+    transform: scale(1.1);
+}
+
+/* FOOTER SECTION */
+
+.footer-section{
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+    padding-top: 15px;
+    background-color: #2b8a3e;
+    color: #fff;
+    font-weight: 200;
+    font-size: 1rem;
+}
